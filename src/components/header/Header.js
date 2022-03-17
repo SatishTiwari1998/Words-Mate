@@ -19,7 +19,7 @@ const Header = ({ word, setword,lightmode }) => {
   });
   return (
     <div className="header">
-      <span className="title">{word?"Word Mate":"kela"}</span>
+      <span className="title">{word?"Word Mate":"Search"}</span>
       <div className="inputs">
         <ThemeProvider theme={customTheme}>
           <TextField
